@@ -1,0 +1,32 @@
+# .gcloudignore
+# This file specifies files that should not be uploaded to Google Cloud.
+
+# Git files
+.git/
+.gitignore
+
+# Node.js build and dependency files
+node_modules/
+dist/
+build/
+.env*
+!.env.example
+
+# Android build and project files (exclude from web server deployment)
+.gradle/
+app/
+gradle/
+build.gradle
+settings.gradle
+gradlew
+gradlew.bat
+gradle.properties
+automate-apk.js
+minesgame-release-key.keystore
+twa-manifest.json
+manifest-checksum.txt
+build.log
+*.log
+
+# Keep the static assets and compiled APK for user download
+!public/minesgame.apk

@@ -1,0 +1,443 @@
+{
+  "users": {
+    "demo_recovery@tradexora.com": {
+      "email": "demo_recovery@tradexora.com",
+      "password": "finalpassword123",
+      "name": "DemoUser",
+      "balance": 97,
+      "wagerTarget": 194,
+      "wagerCurrent": 0,
+      "referralCode": "FMKVX6",
+      "referredBy": "",
+      "referralCount": 0,
+      "referralBonus": 0,
+      "hasDeposited": false,
+      "isBlocked": false,
+      "updatedAt": 1791080616504
+    },
+    "rahul56@gmail.com": {
+      "email": "rahul56@gmail.com",
+      "password": "rahul890",
+      "name": "Rahulrao",
+      "balance": 185.27,
+      "wagerTarget": 194,
+      "wagerCurrent": 97,
+      "referralCode": "OSJ16V",
+      "referredBy": "",
+      "referralCount": 0,
+      "referralBonus": 0,
+      "hasDeposited": false,
+      "isBlocked": false
+    },
+    "tnxjatavji@gmail.com": {
+      "email": "tnxjatavji@gmail.com",
+      "password": "rahulrao",
+      "name": "Neo",
+      "balance": 97,
+      "wagerTarget": 194,
+      "wagerCurrent": 0,
+      "referralCode": "X5NKUN",
+      "referredBy": "",
+      "referralCount": 0,
+      "referralBonus": 0,
+      "hasDeposited": false
+    },
+    "aanshiji@gmail.com": {
+      "email": "aanshiji@gmail.com",
+      "password": "Rahulji830377",
+      "name": "Admin Master",
+      "balance": 50000,
+      "wagerTarget": 0,
+      "wagerCurrent": 0,
+      "referralCode": "MASTER",
+      "referredBy": "",
+      "referralCount": 0,
+      "referralBonus": 0,
+      "hasDeposited": true
+    },
+    "dgdhhdhs@gmail.com": {
+      "email": "dgdhhdhs@gmail.com",
+      "password": "gdy6e6e",
+      "name": "Gsgsgs",
+      "balance": 10000,
+      "wagerTarget": 10194,
+      "wagerCurrent": 97,
+      "referralCode": "OZ5M2T",
+      "referredBy": "",
+      "referralCount": 0,
+      "referralBonus": 0,
+      "hasDeposited": true,
+      "isBlocked": false
+    },
+    "hauwteuie@gmail.com": {
+      "email": "hauwteuie@gmail.com",
+      "password": "hsheywye6",
+      "name": "Tststs",
+      "balance": 1497,
+      "wagerTarget": 10194,
+      "wagerCurrent": 8600,
+      "referralCode": "6BWRWV",
+      "referredBy": "",
+      "referralCount": 0,
+      "referralBonus": 0,
+      "hasDeposited": true,
+      "isBlocked": false
+    },
+    "test_instant_signup_99@tradexora.com": {
+      "email": "test_instant_signup_99@tradexora.com",
+      "password": "password123",
+      "name": "TestUser",
+      "balance": 97,
+      "wagerTarget": 194,
+      "wagerCurrent": 0,
+      "referralCode": "QZJ0TS",
+      "referredBy": "",
+      "referralCount": 0,
+      "referralBonus": 0,
+      "hasDeposited": false
+    }
+  },
+  "transactions": {
+    "bet_1791080836956dtavn": {
+      "type": "bet",
+      "amount": 97,
+      "userId": "rahul56@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T02:27:16.956Z"
+    },
+    "win_17910808520475evo9": {
+      "type": "win",
+      "amount": 185.27,
+      "profit": 88.27,
+      "tradeId": "tx_mut7aaf1pusr",
+      "userId": "rahul56@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T02:27:32.047Z",
+      "description": "Binary Trade Full Profit Payout on 75 (PUT)"
+    },
+    "bet_1791083526507gqpp1": {
+      "type": "bet",
+      "amount": 97,
+      "userId": "dgdhhdhs@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:12:06.507Z"
+    },
+    "dep_1791083914607": {
+      "type": "deposit",
+      "amount": 500,
+      "userId": "demo_recovery@tradexora.com",
+      "status": "rejected",
+      "utr": "987654321098",
+      "upiId": "tradexora0@okhdfcbank",
+      "date": "2026-10-04T03:18:34.607Z",
+      "created_at": 1791083914607,
+      "screenshotBase64": "",
+      "screenshotHash": "",
+      "riskScore": 25,
+      "isAutoApproved": false,
+      "verificationMethod": "MANUAL_COMPLIANCE_REVIEW",
+      "reasons": [
+        "MISSING_SCREENSHOT: Payment receipt screenshot was not attached"
+      ],
+      "ocrData": {
+        "utrMatch": "MISSING",
+        "amountMatch": "MISSING",
+        "extractedUtr": "987654321098",
+        "extractedAmount": 500,
+        "extractedStatus": "UNKNOWN"
+      },
+      "rejectedAt": 1791084283216,
+      "rejectReason": "Rejected by Administrator",
+      "adminNote": "Rejected by Administrator"
+    },
+    "dep_1791084009301": {
+      "type": "deposit",
+      "amount": 10000,
+      "userId": "dgdhhdhs@gmail.com",
+      "status": "approved",
+      "utr": "748393039373737",
+      "upiId": "tradexora0@okaxis",
+      "date": "2026-10-04T03:20:09.301Z",
+      "created_at": 1791084009301,
+      "screenshotBase64": "",
+      "screenshotHash": "",
+      "riskScore": 25,
+      "isAutoApproved": false,
+      "verificationMethod": "MANUAL_COMPLIANCE_REVIEW",
+      "reasons": [
+        "MISSING_SCREENSHOT: Payment receipt screenshot was not attached"
+      ],
+      "ocrData": {
+        "utrMatch": "MISSING",
+        "amountMatch": "MISSING",
+        "extractedUtr": "748393039373737",
+        "extractedAmount": 10000,
+        "extractedStatus": "UNKNOWN"
+      },
+      "approvedAt": 1791084151098,
+      "adminNote": "Approved via Master Admin Panel"
+    },
+    "dep_1791084240757": {
+      "type": "deposit",
+      "amount": 10000,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "utr": "767899777",
+      "upiId": "tradexora0@okicici",
+      "date": "2026-10-04T03:24:00.757Z",
+      "created_at": 1791084240757,
+      "screenshotBase64": "",
+      "screenshotHash": "",
+      "riskScore": 25,
+      "isAutoApproved": false,
+      "verificationMethod": "MANUAL_COMPLIANCE_REVIEW",
+      "reasons": [
+        "MISSING_SCREENSHOT: Payment receipt screenshot was not attached"
+      ],
+      "ocrData": {
+        "utrMatch": "MISSING",
+        "amountMatch": "MISSING",
+        "extractedUtr": "767899777",
+        "extractedAmount": 10000,
+        "extractedStatus": "UNKNOWN"
+      },
+      "approvedAt": 1791084285438,
+      "adminNote": "Approved via Master Admin Panel"
+    },
+    "bet_1791084404685iywtu": {
+      "type": "bet",
+      "amount": 1000,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:26:44.685Z"
+    },
+    "bet_17910844231238gpzu": {
+      "type": "bet",
+      "amount": 1000,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:03.123Z"
+    },
+    "bet_1791084423502orxbs": {
+      "type": "bet",
+      "amount": 1000,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:03.502Z"
+    },
+    "bet_1791084446678oduoj": {
+      "type": "bet",
+      "amount": 1000,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:26.678Z"
+    },
+    "bet_1791084446873p04ip": {
+      "type": "bet",
+      "amount": 1000,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:26.873Z"
+    },
+    "bet_1791084447066xol3v": {
+      "type": "bet",
+      "amount": 1000,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:27.066Z"
+    },
+    "bet_1791084447282gqnpf": {
+      "type": "bet",
+      "amount": 1000,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:27.282Z"
+    },
+    "bet_1791084475658kntgg": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:55.658Z"
+    },
+    "bet_17910844759808l4fw": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:55.980Z"
+    },
+    "bet_1791084476163f5915": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:56.163Z"
+    },
+    "bet_1791084476349iw4hx": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:56.349Z"
+    },
+    "bet_17910844765372j5nn": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:56.537Z"
+    },
+    "bet_1791084476718xlke5": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:56.718Z"
+    },
+    "bet_1791084476893qpo9y": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:56.893Z"
+    },
+    "bet_1791084477077862e4": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:57.077Z"
+    },
+    "bet_1791084477263ygmlj": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:57.263Z"
+    },
+    "bet_1791084477425wpmgz": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:57.425Z"
+    },
+    "bet_1791084477615ji30r": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:57.615Z"
+    },
+    "bet_1791084477798smd11": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:57.798Z"
+    },
+    "bet_1791084477976nk2of": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:57.976Z"
+    },
+    "bet_1791084478111lx2w0": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:58.111Z"
+    },
+    "bet_17910844782935b3dq": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:58.293Z"
+    },
+    "bet_1791084478481cla3y": {
+      "type": "bet",
+      "amount": 100,
+      "userId": "hauwteuie@gmail.com",
+      "status": "approved",
+      "date": "2026-10-04T03:27:58.481Z"
+    }
+  },
+  "configs": {
+    "admin_sessions": {
+      "tx_sec_873d6471b52abcccc6efd304959c3d337480340b27825926875c3a77f814b1d2": 1822619339452,
+      "tx_sec_9233e5550448c2ce909175d79129aa27d5d94492518c8529447bd323dc196bff": 1822620139323,
+      "tx_sec_3e62e2a6e9edc269f5362c5754ac6c7d0e0e124f49cc74e82cc3fbd164855a7c": 1822620278287
+    },
+    "admin_persistent_config": {
+      "autoProfitConfig": {
+        "enabled": true,
+        "targetMargin": 0.25,
+        "mode": "PSYCHOLOGY",
+        "globalWinRate": 0.2,
+        "psychologySettings": {
+          "antiStreakEnabled": true,
+          "honeymoonBoostEnabled": true,
+          "nearMissRealismEnabled": true,
+          "smartBetSizingEnabled": true
+        },
+        "houseLossDefense": {
+          "hardStopPlatformDeficit": true,
+          "martingaleSurgeProtection": true,
+          "whaleBetThreshold": 500,
+          "sessionProfitCapMultiplier": 2.5
+        }
+      },
+      "masterAccountConfig": {
+        "email": "",
+        "enabled": false,
+        "driveGlobalCandles": false,
+        "winRate": 0.5
+      },
+      "profitResetBaseline": 0,
+      "updatedAt": "2026-10-04T03:10:13.741Z"
+    },
+    "profit_reset_baseline": 0
+  },
+  "deposit_upis": {
+    "upi_1": {
+      "id": "upi_1",
+      "upiId": "tradexora0@okhdfcbank",
+      "name": "HDFC Official QR",
+      "bankName": "HDFC Bank",
+      "isActive": true,
+      "isPrimary": true,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    "upi_2": {
+      "id": "upi_2",
+      "upiId": "tradexora0@okaxis",
+      "name": "Axis Bank Instant",
+      "bankName": "Axis Bank",
+      "isActive": true,
+      "isPrimary": false,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    "upi_3": {
+      "id": "upi_3",
+      "upiId": "tradexora0@okicici",
+      "name": "ICICI Merchant UPI",
+      "bankName": "ICICI Bank",
+      "isActive": true,
+      "isPrimary": false,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    "upi_4": {
+      "id": "upi_4",
+      "upiId": "tradexora0@oksbi",
+      "name": "SBI FastPay Gateway",
+      "bankName": "State Bank of India",
+      "isActive": true,
+      "isPrimary": false,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  }
+}

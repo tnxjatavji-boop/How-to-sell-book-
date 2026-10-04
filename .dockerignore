@@ -1,0 +1,22 @@
+# .dockerignore
+node_modules
+dist
+build
+.git
+.gitignore
+.gradle
+app
+gradle
+build.gradle
+settings.gradle
+gradlew
+gradlew.bat
+gradle.properties
+automate-apk.js
+minesgame-release-key.keystore
+twa-manifest.json
+manifest-checksum.txt
+build.log
+*.log
+.env*
+!.env.example

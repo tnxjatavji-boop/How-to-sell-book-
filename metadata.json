@@ -1,0 +1,8 @@
+{
+  "name": "TradeXora final v2",
+  "description": "Fast Binary Options & Smart Market Trading Platform with Real-Time Charts and Seamless UPI Transfers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

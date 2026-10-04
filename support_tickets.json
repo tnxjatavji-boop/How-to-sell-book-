@@ -1,0 +1,37 @@
+{
+  "tickets": [
+    {
+      "ticket_id": "TX-100001",
+      "telegram_user_id": "testuser@tradexora.com",
+      "telegram_username": "testuser",
+      "telegram_sender_name": "TESTUSER",
+      "tradexora_user_id": "testuser@tradexora.com",
+      "category": "WITHDRAWAL",
+      "message": "Live Support session started",
+      "priority": "MEDIUM",
+      "status": "OPEN",
+      "created_at": 1791035327071,
+      "updated_at": 1791035331531,
+      "assigned_admin": "Senior Desk Officer Rahul Sharma",
+      "history": [
+        {
+          "sender": "bot",
+          "message": "Hello 👋! Welcome to TradeXora Live Support Desk. How can I assist you with your deposits, withdrawals, or trading account today?",
+          "timestamp": 1791035297071,
+          "adminName": "Xora Assistant"
+        },
+        {
+          "sender": "user",
+          "message": "Check my withdrawal status",
+          "timestamp": 1791035331531
+        },
+        {
+          "sender": "bot",
+          "message": "🏦 **Bank Withdrawal Information:**\n\n• **Minimum Withdrawal:** ₹200 (100% unlocked balance)\n• **Processing Time:** 15 to 30 minutes via direct IMPS\n• **Gateway Fee:** 4% bank processing fee\n• Simply enter your Account Holder Name, Bank Account Number, and IFSC Code on the Withdraw screen.",
+          "timestamp": 1791035332031,
+          "adminName": "Xora Assistant"
+        }
+      ]
+    }
+  ]
+}

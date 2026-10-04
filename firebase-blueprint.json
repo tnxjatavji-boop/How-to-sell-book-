@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User account information and balance",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "password": { "type": "string" },
+        "name": { "type": "string" },
+        "balance": { "type": "number" },
+        "wagerTarget": { "type": "number" },
+        "wagerCurrent": { "type": "number" },
+        "referralCode": { "type": "string" },
+        "referredBy": { "type": "string" },
+        "referralCount": { "type": "number" },
+        "referralBonus": { "type": "number" },
+        "hasDeposited": { "type": "boolean" },
+        "consecutiveWins": { "type": "number" },
+        "consecutiveWinDetections": { "type": "number" },
+        "depositLimitDetections": { "type": "number" },
+        "isBlocked": { "type": "boolean" },
+        "gameActive": { "type": "boolean" },
+        "lastActionTime": { "type": "number" },
+        "rapidActionCount": { "type": "number" },
+        "winRate": { "type": "number" },
+        "isRiskFree": { "type": "boolean" }
+      },
+      "required": ["email", "balance"]
+    },
+    "Transaction": {
+      "title": "Transaction",
+      "description": "Deposit, withdrawal, or betting transaction log",
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "enum": ["deposit", "withdraw", "bet", "win", "promo_reg", "promo_dep", "promo_bet"] },
+        "amount": { "type": "number" },
+        "userId": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "utr": { "type": "string" },
+        "upi": { "type": "string" },
+        "date": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["type", "amount", "userId", "status", "date"]
+    },
+    "Config": {
+      "title": "Config",
+      "description": "System configuration parameters",
+      "type": "object",
+      "properties": {
+        "text": { "type": "string" }
+      },
+      "required": ["text"]
+    },
+    "GiftCode": {
+      "title": "GiftCode",
+      "description": "Gift codes for balance redemption",
+      "type": "object",
+      "properties": {
+        "code": { "type": "string" },
+        "amount": { "type": "number" },
+        "isUsed": { "type": "boolean" },
+        "usedBy": { "type": "string" },
+        "usedAt": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["code", "amount", "isUsed", "createdAt"]
+    },
+    "DepositUpi": {
+      "title": "DepositUpi",
+      "description": "UPI accounts for user deposits configured via Admin Panel",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "upiId": { "type": "string" },
+        "name": { "type": "string" },
+        "bankName": { "type": "string" },
+        "isActive": { "type": "boolean" },
+        "isPrimary": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "notes": { "type": "string" }
+      },
+      "required": ["id", "upiId", "name", "isActive"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User accounts"
+    },
+    "/transactions/{transactionId}": {
+      "schema": "Transaction",
+      "description": "Transaction logs"
+    },
+    "/deposit_upis/{upiId}": {
+      "schema": "DepositUpi",
+      "description": "Deposit UPI accounts"
+    },
+    "/configs/{configId}": {
+      "schema": "Config",
+      "description": "System configs"
+    },
+    "/gift_codes/{code}": {
+      "schema": "GiftCode",
+      "description": "Gift codes"
+    }
+  }
+}

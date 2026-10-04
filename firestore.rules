@@ -1,0 +1,40 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // User profile documents
+    match /users/{userId} {
+      allow read, write: if true;
+    }
+
+    // Transactions log
+    match /transactions/{transactionId} {
+      allow read, write: if true;
+    }
+
+    // Deposit UPI accounts
+    match /deposit_upis/{upiId} {
+      allow read, write: if true;
+    }
+
+    // System configurations
+    match /configs/{configId} {
+      allow read, write: if true;
+    }
+
+    // Gift codes
+    match /gift_codes/{code} {
+      allow read, write: if true;
+    }
+
+    // Trades and positions
+    match /trades/{tradeId} {
+      allow read, write: if true;
+    }
+
+    // Fallback for all application collections
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
+
